@@ -98,14 +98,16 @@ nav ul li{
 nav a:link{
     color: #fafafafa;
 }
+html {
+    scroll-behavior: smooth;
+  }
+/*-----------HOVER EFFECT----------*/
 
 nav a:hover{
     border-bottom: none;
     color: rgb(233, 76, 107);
-}
-html {
-    scroll-behavior: smooth;
-  }
+    opacity:0.7;
+
 /*--------------LIST--------------------*/
 ul{
     list-style: none;
